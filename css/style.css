@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    height: 100vh;
+
+    & .form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 80vw;
+    }
+
+    & #map {
+        width: 80vw;
+        height: 500px;
+    }
+}
